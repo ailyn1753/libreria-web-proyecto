@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1; /* Permite que el contenido principal ocupe el espacio disponible */
+}
+
+footer {
+    margin-top: auto;
+    background-color: #f8f9fa;
+    padding: 1rem 0; 
+}
+
+/* Mejorar visibilidad de mensajes de error de validación */
+.invalid-feedback {
+    display: block;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: .875em;
+    color: #dc3545;
+}
+
+/* Estilo para tarjetas de libro */
+.card-libro {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Hacer que el navbar de admin sea distinto */
+.navbar-admin { background-color: #6f42c1; } 
